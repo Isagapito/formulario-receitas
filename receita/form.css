@@ -1,3 +1,6 @@
+body{
+   background-image: url(img/c07ff0d37a55d03a8f5b5cec79e738ec.jpg);
+}
 label, input, select, textarea{
    display: block ;
    width: 95%;
@@ -10,7 +13,7 @@ label, input, select, textarea{
 form{
    width: 550px;
    margin: auto;
-   background:  rgb(247, 193, 220);
+   background:  rgb(249, 204, 152);
    padding: 40px;
    border-radius: 10px;
 }
@@ -35,19 +38,19 @@ input[type='checkbox'], input[type='radio']{
 }
 input:focus, select:focus, textarea:focus{
   outline: none;
-  border: solid 1px rgb(249, 8, 169);
+  border: solid 1px yellow;
 }
 #enviar{
   width: 100%;
-  border: 2px solid rgb(249, 8, 169);
-  background-color: rgb(249, 8, 169);
+  border: 2px solid rgb(237, 237, 81);
+  background-color: rgb(237, 237, 81);
   color: white;
   font-weight: bold;
   cursor: pointer;
   padding: 15px;
 }
 #enviar:hover{
- background-color: rgb(249, 8, 169);
+ background-color: rgb(237, 237, 81);
  color: #fff;
 transition:all linear 0.3;
 }
